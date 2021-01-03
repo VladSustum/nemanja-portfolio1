@@ -19,14 +19,14 @@ function App() {
   return (
     <>
     <HashRouter>
-     <Navbar />
+     {/* <Navbar /> */}
      <Switch>
        <Route path='/' exact component=
        {Home} />
-       <Route path='/portfolio' component={Portfolio} />
+       {/* <Route path='/portfolio' component={Portfolio} />
        <Route path='/onama'  component={Onama} />
        <Route path='/kontakt' component={Kontakt} />
-       <Route path='/usluge' component={Usluge} />
+       <Route path='/usluge' component={Usluge} /> */}
        <Route path='*' component={NoMatch} ></Route>
      </Switch>
      </HashRouter>
