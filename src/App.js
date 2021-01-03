@@ -19,7 +19,7 @@ function App() {
   return (
     <>
     <HashRouter>
-     {/* <Navbar /> */}
+     <Navbar />
      <Switch>
        <Route path='/' exact component=
        {Home} />
