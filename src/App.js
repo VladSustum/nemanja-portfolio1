@@ -23,7 +23,6 @@ function App() {
      <Switch>
        <Route path='/' exact component=
        {Home} />
-       <li><a href='/onama'></a></li>
        <Route path='/onama'></Route>
        {/* <Route path='/portfolio' component={Portfolio} />
        <Route path='/onama'  component={Onama} />
