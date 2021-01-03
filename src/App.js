@@ -1,6 +1,6 @@
 import react from 'react';
 import './App.css';
-import {HashRouter as Router, Switch, Route, useLocation, HashRouter} from 'react-router-dom'
+import {HashRouter as Router, Switch, Route, useLocation, HashRouter, NavLink} from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Portfolio from './components/Portfolio';
@@ -23,6 +23,7 @@ function App() {
      <Switch>
        <Route path='/' exact component=
        {Home} />
+       <li><a href='/onama'></a></li>
        {/* <Route path='/portfolio' component={Portfolio} />
        <Route path='/onama'  component={Onama} />
        <Route path='/kontakt' component={Kontakt} />
