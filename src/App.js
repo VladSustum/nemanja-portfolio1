@@ -24,6 +24,7 @@ function App() {
        <Route path='/' exact component=
        {Home} />
        <li><a href='/onama'></a></li>
+       <Route path='/onama'></Route>
        {/* <Route path='/portfolio' component={Portfolio} />
        <Route path='/onama'  component={Onama} />
        <Route path='/kontakt' component={Kontakt} />
