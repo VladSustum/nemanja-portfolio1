@@ -21,7 +21,7 @@ function App() {
     <HashRouter>
      <Navbar />
      <Switch>
-       <Route path='/' exact component=
+       <NavLink to='/' exact component=
        {Home} />
        <Route path='/onama'></Route>
        {/* <Route path='/portfolio' component={Portfolio} />
