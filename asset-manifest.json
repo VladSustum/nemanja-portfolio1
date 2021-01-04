@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Famempire2.github.io/static/css/main.6f7fca80.chunk.css",
-    "main.js": "/Famempire2.github.io/static/js/main.c60781a2.chunk.js",
-    "main.js.map": "/Famempire2.github.io/static/js/main.c60781a2.chunk.js.map",
+    "main.js": "/Famempire2.github.io/static/js/main.dba75091.chunk.js",
+    "main.js.map": "/Famempire2.github.io/static/js/main.dba75091.chunk.js.map",
     "runtime-main.js": "/Famempire2.github.io/static/js/runtime-main.a5c31de9.js",
     "runtime-main.js.map": "/Famempire2.github.io/static/js/runtime-main.a5c31de9.js.map",
-    "static/js/2.b54ea455.chunk.js": "/Famempire2.github.io/static/js/2.b54ea455.chunk.js",
-    "static/js/2.b54ea455.chunk.js.map": "/Famempire2.github.io/static/js/2.b54ea455.chunk.js.map",
+    "static/js/2.3980cf37.chunk.js": "/Famempire2.github.io/static/js/2.3980cf37.chunk.js",
+    "static/js/2.3980cf37.chunk.js.map": "/Famempire2.github.io/static/js/2.3980cf37.chunk.js.map",
     "index.html": "/Famempire2.github.io/index.html",
     "static/css/main.6f7fca80.chunk.css.map": "/Famempire2.github.io/static/css/main.6f7fca80.chunk.css.map",
-    "static/js/2.b54ea455.chunk.js.LICENSE.txt": "/Famempire2.github.io/static/js/2.b54ea455.chunk.js.LICENSE.txt",
+    "static/js/2.3980cf37.chunk.js.LICENSE.txt": "/Famempire2.github.io/static/js/2.3980cf37.chunk.js.LICENSE.txt",
     "static/media/1.2690225e.jpg": "/Famempire2.github.io/static/media/1.2690225e.jpg",
     "static/media/2.1963b27c.jpg": "/Famempire2.github.io/static/media/2.1963b27c.jpg",
     "static/media/3.28f66672.png": "/Famempire2.github.io/static/media/3.28f66672.png",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a5c31de9.js",
-    "static/js/2.b54ea455.chunk.js",
+    "static/js/2.3980cf37.chunk.js",
     "static/css/main.6f7fca80.chunk.css",
-    "static/js/main.c60781a2.chunk.js"
+    "static/js/main.dba75091.chunk.js"
   ]
 }
