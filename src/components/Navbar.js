@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Link} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 import './Navbar.css';
 
 
@@ -21,30 +21,30 @@ function Navbar(){
     <>
     <nav className='navbar'>
     <div className='navbar-container'>
-      <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+      <NavLink to='/' className='navbar-logo' onClick={closeMobileMenu}>
          FAMEMPIRE <i className='fab fa-type3'></i>
-          </Link>  
+          </NavLink>  
          <div className="menu-icon" onClick={handleClick}>
              <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
          </div>
          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
              <li className='nav-item'>
-                <a href to='/onama' className='nav-links' onClick={closeMobileMenu}>
+                <NavLink to ='/onama' className='nav-links' onClick={closeMobileMenu}>
                 O nama
-                </a>
+                </NavLink>
              </li>
              <li className='nav-item'>
-                <a href to='/usluge' className='nav-links' onClick={closeMobileMenu}>
+                <NavLink to ='/usluge' className='nav-links' onClick={closeMobileMenu}>
                 Usluge
-                </a>
+                </NavLink>
              </li>
              <li className='nav-item'>
-                <a href to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
+                <NavLink to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
                 Portfolio
-                </a>
+                </NavLink>
              </li>
              <li className='nav-item'>
-                <a href to='/kontakt' className='nav-links' onClick={closeMobileMenu}>Kontakt</a>
+                <NavLink to='/kontakt' className='nav-links' onClick={closeMobileMenu}>Kontakt</NavLink>
              </li>
          </ul>
     </div>

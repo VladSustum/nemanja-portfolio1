@@ -30,7 +30,7 @@ function App() {
        <Route path='/usluge' component={Usluge} /> */}
        <Route path='*' component={NoMatch} ></Route>
      </Switch>
-     <Route path='/' component={Home}></Route>
+     <Route exact path='/' component={Home}></Route>
      <Route path='/onama' component={Onama}></Route>
      </HashRouter>
      </>
