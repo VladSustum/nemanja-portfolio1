@@ -23,13 +23,15 @@ function App() {
      <Switch>
        <NavLink to='/' exact component=
        {Home} />
-       <Route path='/onama'></Route>
+       <NavLink to='/onama'/>
        {/* <Route path='/portfolio' component={Portfolio} />
        <Route path='/onama'  component={Onama} />
        <Route path='/kontakt' component={Kontakt} />
        <Route path='/usluge' component={Usluge} /> */}
        <Route path='*' component={NoMatch} ></Route>
      </Switch>
+     <Route path='/' component={Home}></Route>
+     <Route path='/onama' component={Onama}></Route>
      </HashRouter>
      </>
   );
