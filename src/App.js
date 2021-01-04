@@ -30,6 +30,7 @@ function App() {
        <Route path='/usluge' component={Usluge} />
        <Route path='*' component={NoMatch} ></Route>
      </Switch>
+     <Footer />
      </HashRouter>
      </>
   );
