@@ -22,9 +22,8 @@ function App() {
     <HashRouter>
      <Navbar />
      <Switch>
-       <NavLink to='/' exact component=
-       {Home} />
-       <NavLink to='/onama' component={Onama}/>
+       <NavLink to='/'/>
+       <NavLink to='/onama'/>
        {/* <Route path='/portfolio' component={Portfolio} />
        <Route path='/onama'  component={Onama} />
        <Route path='/kontakt' component={Kontakt} />
