@@ -7,6 +7,7 @@ import Portfolio from './components/Portfolio';
 import Onama from './components/Onama'
 import Kontakt from './components/Kontakt/Kontakt';
 import Usluge from './components/Usluge';
+import Footer from './components/Footer';
 
 const NoMatch = () => {
   const { pathname } = useLocation()
@@ -23,7 +24,7 @@ function App() {
      <Switch>
        <NavLink to='/' exact component=
        {Home} />
-       <NavLink to='/onama'/>
+       <NavLink to='/onama' component={Onama}/>
        {/* <Route path='/portfolio' component={Portfolio} />
        <Route path='/onama'  component={Onama} />
        <Route path='/kontakt' component={Kontakt} />
