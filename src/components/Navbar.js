@@ -21,30 +21,30 @@ function Navbar(){
     <>
     <nav className='navbar'>
     <div className='navbar-container'>
-      <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+      <NavLink to='/' className='navbar-logo' onClick={closeMobileMenu}>
          FAMEMPIRE <i className='fab fa-type3'></i>
-          </Link>  
+          </NavLink>  
          <div className="menu-icon" onClick={handleClick}>
              <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
          </div>
          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
              <li className='nav-item'>
-                <Link to ='/onama' className='nav-links' onClick={closeMobileMenu}>
+                <NavLink to='/onama' className='nav-links' onClick={closeMobileMenu}>
                 O nama
-                </Link>
+                </NavLink>
              </li>
              <li className='nav-item'>
-                <Link to ='/usluge' className='nav-links' onClick={closeMobileMenu}>
+                <NavLink to='/usluge' className='nav-links' onClick={closeMobileMenu}>
                 Usluge
-                </Link>
+                </NavLink>
              </li>
              <li className='nav-item'>
-                <Link to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
+                <NavLink to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
                 Portfolio
-                </Link>
+                </NavLink>
              </li>
              <li className='nav-item'>
-                <Link to='/kontakt' className='nav-links' onClick={closeMobileMenu}>Kontakt</Link>
+                <NavLink to='/kontakt' className='nav-links' onClick={closeMobileMenu}>Kontakt</NavLink>
              </li>
          </ul>
     </div>
