@@ -22,15 +22,14 @@ function App() {
     <HashRouter>
      <Navbar />
      <Switch>
-       <Route to='/'exact component={Home}/>
-       <Route to='/onama'/>
+       <Route path='/' exact component=
+       {Home} />
        <Route path='/portfolio' component={Portfolio} />
        <Route path='/onama'  component={Onama} />
        <Route path='/kontakt' component={Kontakt} />
        <Route path='/usluge' component={Usluge} />
        <Route path='*' component={NoMatch} ></Route>
      </Switch>
-     <Footer />
      </HashRouter>
      </>
   );
