@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Famempire2.github.io/static/css/main.6f7fca80.chunk.css",
-    "main.js": "/Famempire2.github.io/static/js/main.cf3f8861.chunk.js",
-    "main.js.map": "/Famempire2.github.io/static/js/main.cf3f8861.chunk.js.map",
+    "main.js": "/Famempire2.github.io/static/js/main.89806783.chunk.js",
+    "main.js.map": "/Famempire2.github.io/static/js/main.89806783.chunk.js.map",
     "runtime-main.js": "/Famempire2.github.io/static/js/runtime-main.a5c31de9.js",
     "runtime-main.js.map": "/Famempire2.github.io/static/js/runtime-main.a5c31de9.js.map",
     "static/js/2.8cf9de39.chunk.js": "/Famempire2.github.io/static/js/2.8cf9de39.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.a5c31de9.js",
     "static/js/2.8cf9de39.chunk.js",
     "static/css/main.6f7fca80.chunk.css",
-    "static/js/main.cf3f8861.chunk.js"
+    "static/js/main.89806783.chunk.js"
   ]
 }
