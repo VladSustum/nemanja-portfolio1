@@ -16,7 +16,6 @@ function Home(){
         <Usluge/>
         <Portfolio></Portfolio>
         <Kontakt/>
-        <Footer></Footer>
     
         
 
