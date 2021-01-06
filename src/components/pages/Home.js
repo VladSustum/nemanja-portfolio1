@@ -11,7 +11,7 @@ import Kontakt from '../Kontakt/Kontakt';
 function Home(){
     return (
         <>
-        {/* <HeroSection></HeroSection> */}
+        <HeroSection></HeroSection>
         <Onama {...homeObjOne} />
         <Usluge/>
         <Portfolio></Portfolio>
