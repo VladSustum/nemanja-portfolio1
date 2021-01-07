@@ -10,5 +10,6 @@ function Onama(){
     
     </>
 
-export default Onama; 
+
 }
+export default Onama; 
