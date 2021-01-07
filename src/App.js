@@ -4,7 +4,7 @@ import {HashRouter as Router, Switch, Route, useLocation, HashRouter, NavLink} f
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Portfolio from './components/pages/Portoflio';
-import Onama from './pages/Onama'
+import Onama from './components/pages/Onama';
 import Kontakt from './components/Kontakt/Kontakt';
 import Usluge from './components/Usluge';
 import Footer from './components/Footer';
