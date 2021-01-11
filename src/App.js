@@ -3,7 +3,7 @@ import './App.css';
 import {HashRouter as Router, Switch, Route, useLocation, HashRouter, NavLink} from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
-import Portfolio from './components/Portoflio';
+import Portfolio from './components/Portfolio';
 import Onama from './components/Onama';
 import Kontakt from './components/Kontakt/Kontakt';
 import Usluge from './components/Usluge';
