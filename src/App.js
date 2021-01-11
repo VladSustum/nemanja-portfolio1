@@ -26,7 +26,7 @@ function App() {
        <Route path='/' exact component=
        {Home} />
        <Route path='/portfolio' component={Portfolio} />
-       <Route path='/onama'  component={Onama(...homeObjOne)} />
+       <Route path='/onama'>  <Onama {...homeObjOne}/> </Route>
        <Route path='/kontakt' component={Kontakt} />
        <Route path='/usluge' component={Usluge} />
        <Route path='*' component={NoMatch} />
