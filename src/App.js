@@ -23,7 +23,7 @@ function App() {
     <HashRouter>
      <Navbar />
      <Switch>
-       <Route path='/home' exact component=
+       <Route path='/' exact component=
        {Home} />
        <Route path='/portfolio' component={Portfolio} /> 
        <Route path='/onama'>  <Onama {...homeObjOne}/> </Route>
