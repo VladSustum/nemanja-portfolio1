@@ -9,6 +9,7 @@ import Kontakt from './components/Kontakt/Kontakt';
 import Usluge from './components/Usluge';
 import Footer from './components/Footer';
 import { homeObjOne } from './components/Onama/OnamaData';
+import HeroSection from './components/HeroSection';
 
 const NoMatch = () => {
   const { pathname } = useLocation()
@@ -22,6 +23,10 @@ function App() {
     <>
     <HashRouter>
      <Navbar />
+     <HeroSection />
+     <Onama {...homeObjOne}/>
+     <Kontakt />
+     <Usluge />
      <Switch>
        <Route path='/' exact component=
        {Home} />
