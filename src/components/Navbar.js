@@ -21,7 +21,7 @@ function Navbar(){
     <>
     <nav className='navbar'>
     <div className='navbar-container'>
-      <Link to='home' className='navbar-logo' onClick={closeMobileMenu}>
+      <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
          FAMEMPIRE <i className='fab fa-type3'></i>
           </Link>  
          <div className="menu-icon" onClick={handleClick}>
