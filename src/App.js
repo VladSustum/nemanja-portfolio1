@@ -1,6 +1,6 @@
 import react from 'react';
 import './App.css';
-import {HashRouter as Router, Switch, Route, useLocation, HashRouter, NavLink} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route, useLocation, HashRouter, NavLink} from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Portfolio from './components/Portfolio';
@@ -21,24 +21,20 @@ const NoMatch = () => {
 function App() {
   return (
     <>
-    <HashRouter>
+    <Router>
      <Navbar />
-     {/* <HeroSection />
-     <Onama {...homeObjOne}/>
-     <Kontakt />
-     <Usluge /> */}
      <Switch>
        <Route path='/' exact component=
        {Home} />
       <Switch>
-       <Route path='/portfolio' component={Portfolio} /> 
+       {/* <Route path='/portfolio' component={Portfolio} /> 
        <Route path='/onama'>  <Onama {...homeObjOne}/> </Route>
        <Route path='/kontakt' component={Kontakt} />
-       <Route path='/usluge' component={Usluge} />
+       <Route path='/usluge' component={Usluge} /> */}
        <Route path='*' component={NoMatch} />
        </Switch> 
        </Switch>
-     </HashRouter>
+     </Router>
      </>
   );
 }
