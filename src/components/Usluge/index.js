@@ -8,6 +8,7 @@ import {ServicesContainer,ServiceCard2, ServicesH1, ServicesWrapper,ServiceIcon,
 
 const Usluge = () => {
     return (
+        <div id="usluge">
        <ServicesContainer id="services">
            <ServicesH1>Naše Usluge</ServicesH1>
            <ServicesWrapper>
@@ -42,6 +43,7 @@ const Usluge = () => {
                </ServiceCard2>
            </ServicesWrapper>
        </ServicesContainer>
+       </div>
     )
 }
 

@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 
 function Kontakt() {
     return (
-        <div>
+        <div id="kontakt">
         <div className='body'>
         <p className='centar'>Kontakt</p>
         <div class="contact-info">
