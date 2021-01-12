@@ -10,7 +10,7 @@ import Kontakt from '../Kontakt/Kontakt';
 
 function Home(){
     return (
-        <div id="home">
+        <div id="pocetna">
         
         <HeroSection></HeroSection>
         <Onama {...homeObjOne} />
