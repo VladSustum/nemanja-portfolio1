@@ -1,6 +1,6 @@
 import react from 'react';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route, useLocation, HashRouter, NavLink} from 'react-router-dom'
+import {HashRouter as Router, Switch, Route, useLocation, HashRouter, NavLink} from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Portfolio from './components/Portfolio';
@@ -21,7 +21,7 @@ const NoMatch = () => {
 function App() {
   return (
     <>
-    <Router>
+    <HashRouter>
      <Navbar />
      <Switch>
        <Route path='/' exact component=
@@ -34,7 +34,7 @@ function App() {
        <Route path='*' component={NoMatch} />
        </Switch> 
        </Switch>
-     </Router>
+     </HashRouter>
      </>
   );
 }
