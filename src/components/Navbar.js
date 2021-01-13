@@ -29,27 +29,27 @@ function Navbar(){
              <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
          </div>
          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item' > <Link to='pocetna' smooth={true} className='nav-links' onClick={closeMobileMenu}>
+            <li className='nav-item' > <Link to='pocetna' spy={true} activeClass="active" smooth={true} className='nav-links' onClick={closeMobileMenu}>
             Pocetna
             </Link>
             </li>
              <li className='nav-item'>
-                <Link to='onama' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='onama' smooth={true} className='nav-links' onClick={closeMobileMenu}>
                 O nama
                 </Link>
              </li>
              <li className='nav-item'>
-                <Link to='usluge' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='usluge' smooth={true} className='nav-links' onClick={closeMobileMenu}>
                 Usluge
                 </Link>
              </li>
              <li className='nav-item'>
-                <Link to='portfolio' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='portfolio' smooth={true} className='nav-links' onClick={closeMobileMenu}>
                 Portfolio
                 </Link>
              </li>
              <li className='nav-item'>
-                <Link to='kontakt' className='nav-links' onClick={closeMobileMenu}>Kontakt</Link>
+                <Link to='kontakt'  smooth={true}   className='nav-links' onClick={closeMobileMenu}>Kontakt</Link>
              </li>
          </ul>
     </div>
