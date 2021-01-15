@@ -6,9 +6,9 @@ import '../App.css';
 
 function HeroSection(){
     return (
-<div className='hero-container'>
-<h2>MARKENTISKA KOMPANIJA</h2>   
-<h1>FAMEMPIRE</h1>    
+<div className='hero-container'> 
+<h1>FAMEMPIRE</h1>
+<h2>MARKENTISKA KOMPANIJA</h2>      
 <p>Vas uspeh je i nas uspeh</p>
 <div className='hero-btns'>
     <Button className='btns' buttonStyle="btn--outline" buttonSize='btn--large'>
