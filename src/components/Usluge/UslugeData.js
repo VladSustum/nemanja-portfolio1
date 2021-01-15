@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ServicesContainer = styled.div`
-background: #f1f1f1;
+background: url('../images/bg.jpg');
 height: 1300px;
 display: flex;
 flex-direction: column;
