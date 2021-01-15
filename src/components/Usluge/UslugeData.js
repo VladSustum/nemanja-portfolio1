@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import img from '../images/bg.jpg'
 
 export const ServicesContainer = styled.div`
-background: url('../images/bg.jpg');
+background-image: url(${img});
 height: 1300px;
 display: flex;
 flex-direction: column;
