@@ -8,8 +8,8 @@ function HeroSection(){
     return (
 <div className='hero-container'>
 <h1>FAMEMPIRE</h1>    
-<h1>MARKENTISKA KOMPANIJA</h1>
 <b></b>
+<h1>MARKENTISKA KOMPANIJA</h1>
 <p>Vas uspeh je i nas uspeh</p>
 <div className='hero-btns'>
     <Button className='btns' buttonStyle="btn--outline" buttonSize='btn--large'>
