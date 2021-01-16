@@ -3,7 +3,7 @@ import img from '../../images/bg1.png'
 
 export const ServicesContainer = styled.div`
 background-image: url(${img});
-height: 1300px;
+height: 1290px;
 display: flex;
 flex-direction: column;
 justify-content: center;
