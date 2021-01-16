@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import img from '../../images/bg.jpg'
+import img from '../../images/bg1.png'
 
 export const ServicesContainer = styled.div`
 background-image: url(${img});

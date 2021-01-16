@@ -1,7 +1,7 @@
 .cards {
     padding-top: 100px;
     padding-bottom: 200px;
-    background: url('../images/bg.jpg')no-repeat;
+    background: url('../images/bg1.png')cover;
 
    
   }
