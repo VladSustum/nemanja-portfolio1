@@ -1,7 +1,7 @@
 
 .body{
     padding-top: 200px;
-    background: url('../../images/bg1.png')cover;
+    background: url('../../images/bg1.png');
     min-height: 100vh;
     display: flex;
     align-items: center;
