@@ -19,10 +19,17 @@ video {
   }
   
   .hero-container > h1 {
-    color: #fff;
-    font-size: 100px;
-    margin-top: -200px;
+    color: rgb(252, 252, 252);
+    font-size: 150px;
+    margin-top: -250px;
   }
+
+    .hero-container > h2 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+  }
+
+ 
   
   .hero-container > p {
     margin-top: 8px;
@@ -69,4 +76,7 @@ video {
     .btn {
       width: 100%;
     }
+
+
+   
   }
