@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Famempire2.github.io/static/css/main.bdc949c9.chunk.css",
-    "main.js": "/Famempire2.github.io/static/js/main.29695ba5.chunk.js",
-    "main.js.map": "/Famempire2.github.io/static/js/main.29695ba5.chunk.js.map",
+    "main.css": "/Famempire2.github.io/static/css/main.7a4cd6ce.chunk.css",
+    "main.js": "/Famempire2.github.io/static/js/main.d3e3be6a.chunk.js",
+    "main.js.map": "/Famempire2.github.io/static/js/main.d3e3be6a.chunk.js.map",
     "runtime-main.js": "/Famempire2.github.io/static/js/runtime-main.a5c31de9.js",
     "runtime-main.js.map": "/Famempire2.github.io/static/js/runtime-main.a5c31de9.js.map",
     "static/js/2.42c9232f.chunk.js": "/Famempire2.github.io/static/js/2.42c9232f.chunk.js",
     "static/js/2.42c9232f.chunk.js.map": "/Famempire2.github.io/static/js/2.42c9232f.chunk.js.map",
     "index.html": "/Famempire2.github.io/index.html",
-    "static/css/main.bdc949c9.chunk.css.map": "/Famempire2.github.io/static/css/main.bdc949c9.chunk.css.map",
+    "static/css/main.7a4cd6ce.chunk.css.map": "/Famempire2.github.io/static/css/main.7a4cd6ce.chunk.css.map",
     "static/js/2.42c9232f.chunk.js.LICENSE.txt": "/Famempire2.github.io/static/js/2.42c9232f.chunk.js.LICENSE.txt",
     "static/media/1.2690225e.jpg": "/Famempire2.github.io/static/media/1.2690225e.jpg",
     "static/media/2.1963b27c.jpg": "/Famempire2.github.io/static/media/2.1963b27c.jpg",
@@ -18,7 +18,7 @@
     "static/media/5.a3bc4c84.jpg": "/Famempire2.github.io/static/media/5.a3bc4c84.jpg",
     "static/media/6.033dce6d.jpg": "/Famempire2.github.io/static/media/6.033dce6d.jpg",
     "static/media/HeroSection.css": "/Famempire2.github.io/static/media/bg.4e6bf236.png",
-    "static/media/Kontakt.css": "/Famempire2.github.io/static/media/bg1.a1ae814c.jpg",
+    "static/media/Kontakt.css": "/Famempire2.github.io/static/media/bg1.4a3cb8c0.jpg",
     "static/media/paint-palette.6e40bf98.svg": "/Famempire2.github.io/static/media/paint-palette.6e40bf98.svg",
     "static/media/photo.2dd3e2ce.svg": "/Famempire2.github.io/static/media/photo.2dd3e2ce.svg",
     "static/media/stock.26fc5e08.svg": "/Famempire2.github.io/static/media/stock.26fc5e08.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.a5c31de9.js",
     "static/js/2.42c9232f.chunk.js",
-    "static/css/main.bdc949c9.chunk.css",
-    "static/js/main.29695ba5.chunk.js"
+    "static/css/main.7a4cd6ce.chunk.css",
+    "static/js/main.d3e3be6a.chunk.js"
   ]
 }
