@@ -1,8 +1,9 @@
 import styled from 'styled-components'
+import img from '../../images/bg1.jpg'
 
 export const InfoContainer = styled.div`
   padding-top: 160px;
-  background: ${({ lightBg }) => (lightBg ? '#f1f1f1' : '#f1f1f1')};
+  background-image: url(${img});
   
 
   @media screen and (max-width : 768px){
