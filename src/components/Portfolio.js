@@ -51,9 +51,9 @@ function Portfolio() {
           <p className='hh'>Reklame</p>
           
             <div className='cards__items'>
-          <div className='player'> <ReactPlayer url='https://vimeo.com/474757729' width='450px' height='250px' /></div>
-        <div className='player'><ReactPlayer url='https://vimeo.com/474758486' width='450px' height='250px' /></div>
-        <div className='player'> <ReactPlayer url='https://vimeo.com/474756530' width='450px' height='250px' /></div>
+          <div className='player'> <ReactPlayer url='https://vimeo.com/474757729' width='430px' height='250px' /></div>
+        <div className='player'><ReactPlayer url='https://vimeo.com/474758486' width='430px' height='250px' /></div>
+        <div className='player'> <ReactPlayer url='https://vimeo.com/474756530' width='430px' height='250px' /></div>
         </div>
          
           
