@@ -3,13 +3,11 @@ import './App.css';
 import {HashRouter as Router, Switch, Route, useLocation, HashRouter, NavLink} from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
-import Portfolio from './components/Portfolio';
 import Onama from './components/Onama';
 import Kontakt from './components/Kontakt/Kontakt';
-import Usluge from './components/Usluge';
-import Footer from './components/Footer';
+
 import { homeObjOne } from './components/Onama/OnamaData';
-import HeroSection from './components/HeroSection';
+
 
 const NoMatch = () => {
   const { pathname } = useLocation()
@@ -27,10 +25,8 @@ function App() {
        <Route path='/' exact component=
        {Home} />
       <Switch>
-       <Route path='/portfolio' component={Portfolio} /> 
        <Route path='/onama'>  <Onama {...homeObjOne}/> </Route>
        <Route path='/kontakt' component={Kontakt} />
-       <Route path='/usluge' component={Usluge} />
        <Route path='*' component={NoMatch} />
        </Switch> 
        </Switch>

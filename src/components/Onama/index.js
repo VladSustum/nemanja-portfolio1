@@ -21,7 +21,7 @@ const Onama = ({lightBg,id,imgStart,topLine, lightText,darkText,headline,descrip
   return (
     <>
     <InfoContainer lightBg={lightBg} id={id}>
-      <InfoH1 darkText={darkText}>O Nama</InfoH1>
+      <InfoH1 darkText={darkText}>About me</InfoH1>
       <InfoWrapper>
         <InfoRow imgStart={imgStart}>
           <Column1>

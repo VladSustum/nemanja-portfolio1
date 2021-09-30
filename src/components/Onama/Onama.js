@@ -3,7 +3,7 @@ import img from '../../images/bg1.jpg'
 
 export const InfoContainer = styled.div`
   padding-top: 160px;
-  background-image: url(${img});
+  //  background-image: url(${img});
   
 
   @media screen and (max-width : 768px){
@@ -26,7 +26,7 @@ export const InfoWrapper = styled.div`
 
 export const InfoRow = styled.div`
 
-display: grid;s
+display: grid;
 grid-auto-columns : minmax(auto,1fr);
 align-items: center;
 grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};

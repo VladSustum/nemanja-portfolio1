@@ -7,7 +7,7 @@ function Kontakt() {
     return (
         <div id="kontakt">
         <div className='body'>
-        <p className='centar'>Kontakt</p>
+        <p className='centar'>Contact</p>
         <div class="contact-info">
         <div class="card">
           <i class="card-icon far fa-envelope"></i>
@@ -20,15 +20,15 @@ function Kontakt() {
         </div>
   
         <div class="card">  
-         <a class='card-icon' href='https://www.facebook.com/Famempire-106944311207545'
+         <a class='card-icon' href='https://www.facebook.com/profile.php?id=100007077889453'
                target='_blank'><i class="fab fa-facebook-f" aria-hidden="true" /></a>
                <p></p> 
         </div> 
-        <div class="card">  
+        {/* <div class="card">  
            <a class="card-icon" href='https://www.instagram.com/famempire20/' 
                target='_blank'><i class='fab fa-instagram' /></a>
                <p></p>
-        </div>
+        </div> */}
         </div>
         </div>
         

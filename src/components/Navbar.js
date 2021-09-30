@@ -23,22 +23,22 @@ function Navbar(){
     <nav className='navbar'>
     <div className='navbar-container'>
       <NavLink to='/' className='navbar-logo' onClick={closeMobileMenu}>
-         FAMEMPIRE <i className='fab fa-type3'></i>
+         Nemanja Šuštum <i className='fab fa-type3'></i>
           </NavLink>  
          <div className="menu-icon" onClick={handleClick}>
              <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
          </div>
          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item' > <Link to='pocetna' spy={true} activeClass="active" smooth={true} className='nav-links' onClick={closeMobileMenu}>
-            Pocetna
+            Home
             </Link>
             </li>
              <li className='nav-item'>
                 <Link to='onama' smooth={true} className='nav-links' onClick={closeMobileMenu}>
-                O nama
+                About me
                 </Link>
              </li>
-             <li className='nav-item'>
+             {/* <li className='nav-item'>
                 <Link to='usluge' smooth={true} className='nav-links' onClick={closeMobileMenu}>
                 Usluge
                 </Link>
@@ -47,9 +47,9 @@ function Navbar(){
                 <Link to='portfolio' smooth={true} className='nav-links' onClick={closeMobileMenu}>
                 Portfolio
                 </Link>
-             </li>
+             </li> */}
              <li className='nav-item'>
-                <Link to='kontakt'  smooth={true}   className='nav-links' onClick={closeMobileMenu}>Kontakt</Link>
+                <Link to='kontakt'  smooth={true}   className='nav-links' onClick={closeMobileMenu}>Contact me</Link>
              </li>
          </ul>
     </div>

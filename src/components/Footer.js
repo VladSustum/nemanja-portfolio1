@@ -7,11 +7,11 @@ function Footer() {
       <div className="footer-container">
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              FAMEMPIRE
+             Portfolio
                
             </Link>
           </div>
-          <small class='website-rights'>FAMEMPIRE © 2020</small>
+          <small class='website-rights'>Nemanja Sustum © 2021</small>
 
      </div>
   );
