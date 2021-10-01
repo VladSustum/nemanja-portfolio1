@@ -8,16 +8,16 @@ import Kontakt from '../Kontakt/Kontakt';
 
 function Home(){
     return (
-        <div id="pocetna">
+       <div className="pocetna">
         
         <HeroSection></HeroSection>
         <Onama {...homeObjOne} />
         <Kontakt/>
         <Footer></Footer>
-    
+        </div>
         
 
-        </div>
+       
 
     )
 }

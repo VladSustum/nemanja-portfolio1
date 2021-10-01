@@ -1,3 +1,5 @@
+import img from '../../images/slika.jpg'
+
 export const homeObjOne = {
     id: 'onama',
     lightBg : false,
@@ -5,14 +7,13 @@ export const homeObjOne = {
     lightTextDesc : false,
     topLine : "full-service marketing company",
     headline : 'FAMEMPIRE',
-    description : <ul><li>Famempire je kompanija osnovana 2020. godine u Novom Sadu, koja je tu da vam pruži ceo asortiman usluga iz oblasti marketinga.   Kada kažemo marketing, mislimo na marketing u potpunosti 
+    description : <ul><li>My name is Nemanja. I'm a man on a mission. I quit my job a year a go with a dream of becoming a milionaire in the next 6 years. I've been working super hard to achieve my dream and I'm actually on target to make it happen. 
      </li><br></br><li>
-    Zbog raznovrsnosti znanja našeg kreativnog tima.</li><br></br><li>
-     Naša misija je jednostavna i vodi se i samim sloganom naše kompanije:<strong>"Vaš uspeh je i naš uspeh"</strong></li><br></br><li>Želimo da transformišemo i unapredimo vaš biznis sa inovativnim idejama i strategijama 
-    savremenog marketinga kroz posvećenost,znanje i kreativnost našeg tima.</li><br></br><li>U cilju nam je da stvorimo prepoznatljive brendove i da ga zajedno popnemo do vrha!</li><li>Uz to da smo u stalnom kontaktu sa vama pružamo vam punu transparentnost prilikom izvođenja
-    .</li><br></br></ul>,
+     I make majority of my income from Affiliate Marketing but also have a side hustle on Instagram.</li><br></br><li>
+     Besides Digital Marketing some of my attention get CryptoCurrencies but I'm more of a patient giant than  Daytime trader.</li><br></br><li>Positive and always with a smile on my face I will answer your emails and help as much as I can.
+    </li><br></br><li>So feel free to hit me up.</li><br></br></ul>,
     imgStart: true,
-    img: "/images/slika.jpg",
+    img: img,
     alt: "Slika",
     darkText: true,
 };

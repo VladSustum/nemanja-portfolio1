@@ -21,19 +21,19 @@ const Onama = ({lightBg,id,imgStart,topLine, lightText,darkText,headline,descrip
   return (
     <>
     <InfoContainer lightBg={lightBg} id={id}>
-      <InfoH1 darkText={darkText}>About me</InfoH1>
+      {/* <InfoH1 darkText={darkText}>About me</InfoH1> */}
       <InfoWrapper>
         <InfoRow imgStart={imgStart}>
           <Column1>
           <TextWrapper>
-            <TopLine>full-service marketing company</TopLine>
-            <Heading darkText={darkText}>FAMEMPIRE</Heading>
-            <Subtitle darkText={darkText}><ul><li>Famempire je kompanija osnovana 2020. godine u Novom Sadu, koja je tu da vam pruži ceo asortiman usluga iz oblasti marketinga.   Kada kažemo marketing, mislimo na marketing u potpunosti 
- jer smo stvoreni da budemo u mogućnosti da vam pomognemo u izgradnji svog brenda čak i ako krećete od nule. </li><br></br><li>
- Zbog raznovrsnosti znanja našeg kreativnog tima, ne postoji grana marketinga koju ne možemo da uradimo za vas.</li><br></br><li>
-  Naša misija je jednostavna i vodi se i samim sloganom naše kompanije:<strong>"Vaš uspeh je i naš uspeh"</strong></li><br></br><li>Želimo da transformišemo i unapredimo vaš biznis sa inovativnim idejama i strategijama 
- savremenog marketinga kroz posvećenost,znanje i kreativnost našeg tima.</li><br></br><li>U cilju nam je da stvorimo prepoznatljive brendove i da ga zajedno popnemo do vrha!</li><li>Uz to da smo u stalnom kontaktu sa vama pružamo vam punu transparentnost prilikom izvođenja
-  radova jer pre svega nam je bitno poverenje i zadovoljstvo klijenta.</li><br></br></ul></Subtitle>
+            {/* <TopLine>full-service marketing company</TopLine> */}
+            <Heading darkText={darkText}>About me</Heading>
+            <Subtitle darkText={darkText}><ul><li>My name is Nemanja. I'm a man on a mission. I quit my job a year ago with a dream of becoming a milionaire in the next 6 years. I've been working super hard to achieve my dream and I'm actually on target to make it happen.
+  </li><br></br><li>
+  I make majority of my income from Affiliate Marketing but also have a side hustle on Instagram. </li><br></br><li>
+  Besides Digital Marketing some of my attention get CryptoCurrencies but I'm more of a patient giant than  Daytime trader.</li><br></br><li>Positive and always with a smile on my face I will answer your emails and help as much as I can.
+ </li><br></br><li>So feel free to hit me up.</li>
+ <br></br></ul></Subtitle>
           </TextWrapper>
           </Column1> 
           <Column2>

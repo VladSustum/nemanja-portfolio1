@@ -11,7 +11,7 @@ function Kontakt() {
         <div class="contact-info">
         <div class="card">
           <i class="card-icon far fa-envelope"></i>
-          <p>famempire20@gmail.com</p>
+          <p>nemanja.sustum@yahoo.com</p>
         </div>
   
         <div class="card">

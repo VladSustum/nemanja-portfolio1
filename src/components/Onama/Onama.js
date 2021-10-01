@@ -3,11 +3,12 @@ import img from '../../images/bg1.jpg'
 
 export const InfoContainer = styled.div`
   padding-top: 160px;
+ 
   //  background-image: url(${img});
   
 
   @media screen and (max-width : 768px){
-    padding-bottom: 400px;
+    padding-bottom: 100px;
     
   }
 `;
@@ -101,7 +102,7 @@ export const Subtitle = styled.ul`
 }
   list-style-type: none
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   text-align : center;
 
@@ -110,13 +111,13 @@ export const Subtitle = styled.ul`
 `;
 
 export const ImgWrap = styled.div`
-max-width: 555px;
+max-width: 450px;
 height: 100%;
 `
 
 export const Img = styled.img`
 width: 120%;
-margin: 0px 0 10px -250px;
+margin: 0px 0 10px -150px;
 padding-right : 0;
 
 @media screen and (max-width: 480px){
