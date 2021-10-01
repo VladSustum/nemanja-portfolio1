@@ -49,7 +49,7 @@ function Navbar(){
                 </Link>
              </li> */}
              <li className='nav-item'>
-                <Link to='kontakt'  smooth={true}   className='nav-links' onClick={closeMobileMenu}>Contact me</Link>
+                <Link to='kontakt'  smooth={true}   className='nav-links' onClick={closeMobileMenu}>Contact</Link>
              </li>
          </ul>
     </div>
